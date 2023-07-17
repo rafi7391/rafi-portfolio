@@ -20,25 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Shaik Rafi",
+  title: "Hi all, I'm Rafi",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1-m4ri9UYSIXl4qecvz_eUMXEYgWcodKH/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
+  github: "https://github.com/rafi7391",
+  linkedin: "https://www.linkedin.com/in/shaik-rafi-87063a211/",
+  gmail: "rafi37230@gmail.com",
+  gitlab: "https://gitlab.com/rafi7391",
+  facebook: "https://www.facebook.com/shaik.rafikhan.16",
+  medium: "https://medium.com/@rafi37230",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -113,6 +113,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "Github",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
@@ -126,10 +130,10 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      schoolName: "B V Raju Institute of Technology",
+      logo: require("./assets/images/bvritLogo.jpg"),
+      subHeader: "Bachelor of Technology",
+      duration: "December 2021 - 2025",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -137,10 +141,18 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      schoolName: "Srividya Junior College-KODAD",
+      logo: require("./assets/images/interLogo.jpg"),
+      subHeader: "Class-12 (Intermediate)",
+      duration: "June 2019 - May 2021",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    },
+    {
+      schoolName: "Ravindra Bharathi High School",
+      logo: require("./assets/images/rbsLogo.png"),
+      subHeader: "Secondary Eduaction",
+      duration: "September 2016 - April 2019",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -174,21 +186,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
+      role: "Open-Source Contributor",
+      company: "Time Chain Labs",
+      companylogo: require("./assets/images/TSOCLogo.jpg"),
       date: "June 2018 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
+      role: "Girl Script Summer of Code",
+      company: "Open-Source program",
+      companylogo: require("./assets/images/gssocLogo.jpg"),
       date: "May 2017 – May 2018",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Social Summer of Code",
+      company: "Open-Source Program",
+      companylogo: require("./assets/images/SSOCLogo.png"),
+      date: "Jan 2015 – Sep 2015",
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      role: "Software Engineer Intern",
+      company: "Airbnb",
+      companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "Jan 2015 – Sep 2015",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
@@ -216,9 +241,9 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/googledocsLogo.jpg"),
+      projectName: "Google-Docs-Clone App",
+      projectDesc: "Developed an Interactive Google Doc's Clone using the latest Technologies of MERN Stack Development",
       footerLink: [
         {
           name: "Visit Website",
@@ -228,9 +253,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/googledriveLogo.png"),
+      projectName: "Google-Drive-Clone App",
+      projectDesc: "Developed an Interactive Google Drive Clone App of the Latest Technologies of MERN Stack.",
       footerLink: [
         {
           name: "Visit Website",
@@ -252,6 +277,32 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "AWS ACADEMY",
+      subtitle:
+        "Completed AWS Academy Cloud Foundations Course",
+      image: require("./assets/images/awsLogo.png"),
+      imageAlt: "awsLogo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/8305a620-7744-40f4-b6b0-39c808d4ed68/linked_in_profile"
+        }
+      ]
+    },
+    {
+      title: "AWS ACADEMY",
+      subtitle:
+        "Completed AWS Academy Machine Learning Foundations Course",
+      image: require("./assets/images/awsLogo.png"),
+      imageAlt: "awsLogo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/badges/17850410-3afa-4b69-9bfd-12bc32f71a64/"
+        }
+      ]
+    },
+    {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
@@ -269,6 +320,19 @@ const achievementSection = {
         {
           name: "Google Code-in Blog",
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+        }
+      ]
+    },
+    {
+      title: "Bitcoin Protocol and Design by BSV Academy",
+      subtitle:
+        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/bsvLogo.jpg"),
+      imageAlt: "Google Code-In Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://bitcoinsv.academy/student/certificate/1e0150ca25987676d127c0563c500ade"
         }
       ]
     },
@@ -297,6 +361,17 @@ const achievementSection = {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
         }
+      ]
+    },
+    {
+      title: "SQL for Data Analysis and Data Science",
+      subtitle: "Completed Certifcation from Udemy for SQL Data Analysis and Data Science",
+      image: require("./assets/images/UdemyLogo.png"),
+      imageAlt: "Udemy Logo",
+      footerLink: [
+        {
+          name: "Certification", url: "https://www.udemy.com/certificate/UC-a75a6b23-eb94-4885-b689-98fec9717bd9/"
+        },
       ]
     }
   ],
@@ -363,14 +438,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9392953189",
+  email_address: "rafi37230@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "ShaikRafikhan1", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
