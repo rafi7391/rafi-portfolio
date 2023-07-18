@@ -23,10 +23,11 @@ const greeting = {
   username: "Shaik Rafi",
   title: "Hi all, I'm Rafi",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    //"A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",//
+    "As a tech stack enthusiast my major focus is on open-source projects. I have contributed to various open-source projects, looking forward to diving in and making projects in the blockchain and Web3 domain. I am very much familiar with the Web3 & Blockchain technologies. As a student, I was constantly expanding my knowledge in Bitcoin software development & Web3 and looking forward to learn new things."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1-m4ri9UYSIXl4qecvz_eUMXEYgWcodKH/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1mletKTegKqEq6mYxcLBnTUke_8DZ050P/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -40,6 +41,7 @@ const socialMediaLinks = {
   facebook: "https://www.facebook.com/shaik.rafikhan.16",
   medium: "https://medium.com/@rafi37230",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  hackerrank: "https://www.hackerrank.com/rafi37230?hr_r=1",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -189,38 +191,25 @@ const workExperiences = {
       role: "Open-Source Contributor",
       company: "Time Chain Labs",
       companylogo: require("./assets/images/TSOCLogo.jpg"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "May 2023 – Present",
+      desc: "Contributing towards the Metalogue Project",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Developed an E-commerce website for the Metalogue Project that was based on the Blockchain Technology",
+        "The Technologies we have used for the project mainly was: BSV , SCRYPT, TYPESCRIPT, NEXTJS, POSTGRESQL, VERCEL"
       ]
     },
     {
       role: "Girl Script Summer of Code",
       company: "Open-Source program",
       companylogo: require("./assets/images/gssocLogo.jpg"),
-      date: "May 2017 – May 2018",
+      date: "April 2023 – present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Social Summer of Code",
       company: "Open-Source Program",
       companylogo: require("./assets/images/SSOCLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "April 2023 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -292,13 +281,52 @@ const achievementSection = {
     {
       title: "AWS ACADEMY",
       subtitle:
-        "Completed AWS Academy Machine Learning Foundations Course",
+        "Completed AWS Academy ML Foundations Course",
       image: require("./assets/images/awsLogo.png"),
       imageAlt: "awsLogo",
       footerLink: [
         {
           name: "Certification",
           url: "https://www.credly.com/badges/17850410-3afa-4b69-9bfd-12bc32f71a64/"
+        }
+      ]
+    },
+    {
+      title: "SSOC ",
+      subtitle:
+        "Open-Source Summer of Code Contributor Certification",
+      image: require("./assets/images/SSOCLogo.png"),
+      imageAlt: "awsLogo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/13zbY11gFlJoBRrFqlZK7pTyQOD9baaik/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "TSOC ",
+      subtitle:
+        "Open-Source Summer of Code Contributor Certification",
+      image: require("./assets/images/TSOCLogo.jpg"),
+      imageAlt: "awsLogo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1FwFyUMfHc6_9jUB4bWp3oUmldXOFdZov/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "GSSOC ",
+      subtitle:
+        "Open-Source Summer of Code Contributor Certification",
+      image: require("./assets/images/gssocLogo.jpg"),
+      imageAlt: "awsLogo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1sMf54sAwrEtzAR_PzAyZLBxg342rdZQF/view?usp=sharing"
         }
       ]
     },
@@ -378,6 +406,7 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
 // Blogs Section
 
 const blogSection = {
@@ -431,7 +460,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -449,7 +478,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
