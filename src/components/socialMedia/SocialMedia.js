@@ -77,7 +77,7 @@ export default function socialMedia() {
         >
           <i className="fab fa-instagram"></i>
           <span></span>
-        </a>
+        </a>           
       ) : null}
 
       {socialMediaLinks.twitter ? (
@@ -124,6 +124,18 @@ export default function socialMedia() {
           rel="noopener noreferrer"
         >
           <i className="fab fa-kaggle"></i>
+          <span></span>
+        </a>
+      ) : null}
+
+      {socialMediaLinks.hackerrank ? (
+        <a
+          href={socialMediaLinks.hackerrank}
+          className="icon-button hackerrank"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-hackerrank"></i>
           <span></span>
         </a>
       ) : null}
