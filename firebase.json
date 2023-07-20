@@ -20,7 +20,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "./portfolio.js"
+        "destination": "/index.html"
       }
     ]
   },
