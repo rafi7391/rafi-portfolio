@@ -10,7 +10,7 @@
     "colorthief": "^2.2.0",
     "css": "^3.0.0",
     "env-cmd": "^10.1.0",
-    "gh-pages": "^5.0.0",
+    "gh-pages": "^6.0.0",
     "prettier": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -53,8 +53,13 @@
   },
   "devDependencies": {
     "firebase-tools": "^12.4.5",
-    "sass": "^1.63.6",
+    "sass": "^1.64.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "fetch.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
