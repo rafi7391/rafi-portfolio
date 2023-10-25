@@ -1,32 +1,33 @@
 {
   "files": {
-    "main.css": "/rafi-portfolio/static/css/main.dd7b4506.css",
-    "main.js": "/rafi-portfolio/static/js/main.4356e7c4.js",
+    "main.css": "/rafi-portfolio/static/css/main.b4b866d8.css",
+    "main.js": "/rafi-portfolio/static/js/main.d511104d.js",
     "static/css/64.917cfe77.chunk.css": "/rafi-portfolio/static/css/64.917cfe77.chunk.css",
     "static/js/64.f68ba003.chunk.js": "/rafi-portfolio/static/js/64.f68ba003.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/rafi-portfolio/static/css/769.70f3b610.chunk.css",
     "static/js/769.e88451d1.chunk.js": "/rafi-portfolio/static/js/769.e88451d1.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/rafi-portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
-    "static/media/interLogo.png": "/rafi-portfolio/static/media/interLogo.27bd7dfdedccbe0ca3c6.png",
+    "static/media/awsLogo.png": "/rafi-portfolio/static/media/awsLogo.144a24ace0489459b135.png",
     "static/media/Agustina.woff": "/rafi-portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/rafi-portfolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
-    "static/media/ssocLogo.png": "/rafi-portfolio/static/media/ssocLogo.9056366c141798296466.png",
+    "static/media/SSOCLogo.png": "/rafi-portfolio/static/media/SSOCLogo.9056366c141798296466.png",
+    "static/media/UdemyLogo.png": "/rafi-portfolio/static/media/UdemyLogo.f52b035420d84c120f4e.png",
     "static/media/contactMailDark.svg": "/rafi-portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/rafi-portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
-    "static/media/bsvLogo.jpg": "/rafi-portfolio/static/media/bsvLogo.96a5fd58aa3ea56b3727.jpg",
-    "static/media/codeInLogo.webp": "/rafi-portfolio/static/media/codeInLogo.e41a71d512efeda2a55c.webp",
+    "static/media/googledriveLogo.png": "/rafi-portfolio/static/media/googledriveLogo.cb332714c08b830094e0.png",
+    "static/media/interLogo.jpg": "/rafi-portfolio/static/media/interLogo.ec945e25610ee145d992.jpg",
     "static/media/skill.svg": "/rafi-portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/rafi-portfolio/index.html",
     "static/media/talksCardBack.svg": "/rafi-portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
-    "main.dd7b4506.css.map": "/rafi-portfolio/static/css/main.dd7b4506.css.map",
-    "main.4356e7c4.js.map": "/rafi-portfolio/static/js/main.4356e7c4.js.map",
+    "main.b4b866d8.css.map": "/rafi-portfolio/static/css/main.b4b866d8.css.map",
+    "main.d511104d.js.map": "/rafi-portfolio/static/js/main.d511104d.js.map",
     "64.917cfe77.chunk.css.map": "/rafi-portfolio/static/css/64.917cfe77.chunk.css.map",
     "64.f68ba003.chunk.js.map": "/rafi-portfolio/static/js/64.f68ba003.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/rafi-portfolio/static/css/769.70f3b610.chunk.css.map",
     "769.e88451d1.chunk.js.map": "/rafi-portfolio/static/js/769.e88451d1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd7b4506.css",
-    "static/js/main.4356e7c4.js"
+    "static/css/main.b4b866d8.css",
+    "static/js/main.d511104d.js"
   ]
 }
