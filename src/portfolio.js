@@ -23,8 +23,7 @@ const greeting = {
   username: "Shaik Rafi",
   title: "Hi all, I'm Rafi",
   subTitle: emoji(
-    //"A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.",//
-    "As a tech stack enthusiast my major focus is on open-source projects. I have contributed to various open-source projects, looking forward to diving in and making projects in the blockchain and Web3 domain. I am very much familiar with the Web3 & Blockchain technologies. As a student, I was constantly expanding my knowledge in Bitcoin software development & Web3 and looking forward to learn new things."
+    "A passionate Software Developer 🚀 having an experience of building Web and Software Applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1mletKTegKqEq6mYxcLBnTUke_8DZ050P/view?usp=sharing", // Set to empty to hide the button
@@ -40,8 +39,8 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.com/rafi7391",
   facebook: "https://www.facebook.com/shaik.rafikhan.16",
   medium: "https://medium.com/@rafi37230",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  hackerrank: "https://www.hackerrank.com/rafi37230?hr_r=1",
+  stackoverflow: "https://stackoverflow.com/users/22253912/shaik-rafi",
+  Twitter: "https://x.com/ShaikRafi03?t=b7VBBZnpVzeZ1nI7AaSWIg&s=09",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -51,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY FULL STACK DEVELOPER AND BLOCKCHIAN ENTHUSIAST WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -115,10 +114,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Github",
-      fontAwesomeClassname: "fab fa-git"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     }
@@ -132,31 +127,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "B V Raju Institute of Technology",
+      schoolName: "B V Raju Institute Of Technology",
       logo: require("./assets/images/bvritLogo.jpg"),
-      subHeader: "Bachelor of Technology",
+      subHeader: "Bachelor of Technology in Information Technology",
       duration: "December 2021 - 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Currently in Third Year of Undergraduation. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Expertising my Skills in Java Data Structures and Algorithms",
+        "Want to chat about math, Open-Source."
       ]
     },
     {
-      schoolName: "Srividya Junior College-KODAD",
+      schoolName: "Srividya Junior College- KODAD",
       logo: require("./assets/images/interLogo.jpg"),
-      subHeader: "Class-12 (Intermediate)",
+      subHeader: "Intermediate MPC - 10+2",
       duration: "June 2019 - May 2021",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Ranked top 3% in the program. Took courses about Mathematics, Physics, Chemistry",
+      descBullets: [""]
     },
     {
-      schoolName: "Ravindra Bharathi High School",
+      schoolName: "Ravindra Bharathi High School- KODAD",
       logo: require("./assets/images/rbsLogo.png"),
-      subHeader: "Secondary Eduaction",
-      duration: "September 2016 - April 2019",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Secondary Education- Class 10",
+      duration: "June 2016 - May 2019",
+      desc: "Ranked First(1%) in the program. ",
+      descBullets: ["Participated in Math Quizes, National Contests."]
     }
   ]
 };
@@ -176,7 +171,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "100%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -191,26 +186,25 @@ const workExperiences = {
       role: "Open-Source Contributor",
       company: "Time Chain Labs",
       companylogo: require("./assets/images/TSOCLogo.jpg"),
-      date: "May 2023 – Present",
-      desc: "Contributing towards the Metalogue Project",
+      date: "April 2023 – June 2023",
+      desc: "Developed an E-commerce website utilizing decentralized blockchain technology, ensuring enhanced security, transparency, and trust for online transactions.",
       descBullets: [
-        "Developed an E-commerce website for the Metalogue Project that was based on the Blockchain Technology",
-        "The Technologies we have used for the project mainly was: BSV , SCRYPT, TYPESCRIPT, NEXTJS, POSTGRESQL, VERCEL"
+        "Using the latest Technologies of computer science we have used to build the website ",
       ]
     },
     {
-      role: "Girl Script Summer of Code",
-      company: "Open-Source program",
+      role: "Open-Source Contributor",
+      company: "GSSOC",
       companylogo: require("./assets/images/gssocLogo.jpg"),
-      date: "April 2023 – present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2023 – July 2023",
+      desc: " Fixed Some Bugs in some Organizations and Contributed to the Open-Source Community."
     },
     {
-      role: "Social Summer of Code",
-      company: "Open-Source Program",
+      role: "Open-Source Contributor",
+      company: "SSOC",
       companylogo: require("./assets/images/SSOCLogo.png"),
-      date: "April 2023 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2023 – June 2023",
+      desc: "Fixed Some Bugs in some Organizations and Contributed to the Open-Source Community."
     }
   ]
 };
@@ -219,7 +213,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: true, // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -231,24 +225,24 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/googledocsLogo.jpg"),
-      projectName: "Google-Docs-Clone App",
-      projectDesc: "Developed an Interactive Google Doc's Clone using the latest Technologies of MERN Stack Development",
+      projectName: "Google-Doc-Clone",
+      projectDesc: "Developed a web application that serves as a clone of Google Docs, one of the most popular collaborative document editing platforms. This project represents a culmination of my passion for web development and my commitment to creating innovative and user-friendly solutions.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Code",
+          url: "https://github.com/rafi7391/google-drive-clone"
         }
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/googledriveLogo.png"),
-      projectName: "Google-Drive-Clone App",
-      projectDesc: "Developed an Interactive Google Drive Clone App of the Latest Technologies of MERN Stack.",
+      projectName: "Google-Drive-Clone",
+      projectDesc: "A web application that replicates the functionality of Google Drive, one of the most widely used cloud storage and file management platforms. This project is the result of my dedication to creating efficient and user-friendly solutions in the realm of web development.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Code",
+          url: "http://github.com/rafi7391/google-doc-clone/"
         }
       ]
     }
@@ -268,22 +262,22 @@ const achievementSection = {
     {
       title: "AWS ACADEMY",
       subtitle:
-        "Completed AWS Academy Cloud Foundations Course",
+        "Completed the AWS Cloud-Foundations Course on AWS Academy",
       image: require("./assets/images/awsLogo.png"),
-      imageAlt: "awsLogo",
+      imageAlt: "AWS Logo",
       footerLink: [
         {
           name: "Certification",
-          url: "https://www.credly.com/badges/8305a620-7744-40f4-b6b0-39c808d4ed68/linked_in_profile"
+          url: "https://www.credly.com/badges/8305a620-7744-40f4-b6b0-39c808d4ed68/"
         }
       ]
     },
     {
       title: "AWS ACADEMY",
       subtitle:
-        "Completed AWS Academy ML Foundations Course",
+        "Completed the Machine Learning Foundations Course on AWS Academy",
       image: require("./assets/images/awsLogo.png"),
-      imageAlt: "awsLogo",
+      imageAlt: "AWS Logo ",
       footerLink: [
         {
           name: "Certification",
@@ -292,24 +286,11 @@ const achievementSection = {
       ]
     },
     {
-      title: "SSOC ",
+      title: "Time Chain Summer of Code",
       subtitle:
-        "Open-Source Summer of Code Contributor Certification",
-      image: require("./assets/images/SSOCLogo.png"),
-      imageAlt: "awsLogo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/13zbY11gFlJoBRrFqlZK7pTyQOD9baaik/view?usp=sharing"
-        }
-      ]
-    },
-    {
-      title: "TSOC ",
-      subtitle:
-        "Open-Source Summer of Code Contributor Certification",
+        "Contributed towards the Open-Source Community",
       image: require("./assets/images/TSOCLogo.jpg"),
-      imageAlt: "awsLogo",
+      imageAlt: "TSOC Logo",
       footerLink: [
         {
           name: "Certification",
@@ -318,11 +299,11 @@ const achievementSection = {
       ]
     },
     {
-      title: "GSSOC ",
+      title: "Girl Script Summer of Code",
       subtitle:
-        "Open-Source Summer of Code Contributor Certification",
+        "Contributed towards the Open-Source Community",
       image: require("./assets/images/gssocLogo.jpg"),
-      imageAlt: "awsLogo",
+      imageAlt: "GSSOC Logo",
       footerLink: [
         {
           name: "Certification",
@@ -331,6 +312,19 @@ const achievementSection = {
       ]
     },
     {
+      title: "Social Summer of Code",
+      subtitle:
+        "Contributed towards the Open-Source Community",
+      image: require("./assets/images/SSOCLogo.png"),
+      imageAlt: "SSOC Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/13zbY11gFlJoBRrFqlZK7pTyQOD9baaik/view?usp=sharing"
+        }
+      ]
+    },
+    /*{
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
@@ -350,13 +344,13 @@ const achievementSection = {
           url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
-    },
+    },*/
     {
-      title: "Bitcoin Protocol and Design by BSV Academy",
+      title: "Bitcoin BSV Academy",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Learn the Bitcoin Protocol and Design Course on BSV Academy",
       image: require("./assets/images/bsvLogo.jpg"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "BSV Logo",
       footerLink: [
         {
           name: "Certification",
@@ -365,47 +359,21 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    },
-    {
       title: "SQL for Data Analysis and Data Science",
-      subtitle: "Completed Certifcation from Udemy for SQL Data Analysis and Data Science",
+      subtitle:
+        "Learn the Data Analysis and Data Science from Udemy Course",
       image: require("./assets/images/UdemyLogo.png"),
-      imageAlt: "Udemy Logo",
+      imageAlt: "SQL Logo",
       footerLink: [
         {
-          name: "Certification", url: "https://www.udemy.com/certificate/UC-a75a6b23-eb94-4885-b689-98fec9717bd9/"
-        },
+          name: "Certificate",
+          url: "https://www.udemy.com/certificate/UC-a75a6b23-eb94-4885-b689-98fec9717bd9/"
+        }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Blogs Section
 
@@ -413,7 +381,7 @@ const blogSection = {
   title: "Blogs",
   subtitle:
     "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
+  displayMediumBlogs: true, // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
@@ -422,13 +390,13 @@ const blogSection = {
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "https://medium.com/@rafi37230",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -447,7 +415,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -474,7 +442,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "ShaikRafikhan1", //Replace "twitter" with your twitter username without @
+  userName: "ShaikRafi03", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
