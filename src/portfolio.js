@@ -36,10 +36,11 @@ const socialMediaLinks = {
   github: "https://github.com/rafi7391",
   linkedin: "https://www.linkedin.com/in/shaik-rafi-87063a211/",
   gmail: "rafi37230@gmail.com",
-  gitlab: "https://gitlab.com/rafi37230",
+  gitlab: "https://gitlab.com/rafi7391",
   facebook: "https://www.facebook.com/shaik.rafikhan.16",
   medium: "https://medium.com/@rafi37230",
   stackoverflow: "https://stackoverflow.com/users/22253912/shaik-rafi",
+  Twitter: "https://x.com/ShaikRafi03?t=b7VBBZnpVzeZ1nI7AaSWIg&s=09",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -128,12 +129,12 @@ const educationInfo = {
     {
       schoolName: "B V Raju Institute Of Technology",
       logo: require("./assets/images/bvritLogo.jpg"),
-      subHeader: "Bachelor oof Technology in Information Technology",
+      subHeader: "Bachelor of Technology in Information Technology",
       duration: "December 2021 - 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Currently in Third Year of Undergraduation. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Expertising my Skills in Java Data Structures and Algorithms",
+        "Want to chat about math, Open-Source."
       ]
     },
     {
@@ -141,16 +142,16 @@ const educationInfo = {
       logo: require("./assets/images/interLogo.png"),
       subHeader: "Intermediate MPC - 10+2",
       duration: "June 2019 - May 2021",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Ranked top 3% in the program. Took courses about Mathematics, Physics, Chemistry",
+      descBullets: [""]
     },
     {
       schoolName: "Ravindra Bharathi High School- KODAD",
       logo: require("./assets/images/rbsLogo.png"),
       subHeader: "Secondary Education- Class 10",
       duration: "June 2016 - May 2019",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Ranked First(1%) in the program. ",
+      descBullets: ["Participated in Math Quizes, National Contests."]
     }
   ]
 };
@@ -170,7 +171,7 @@ const techStack = {
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "100%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -185,7 +186,7 @@ const workExperiences = {
       role: "Open-Source Contributor",
       company: "Time Chain Labs",
       companylogo: require("./assets/images/tsocLogo.jpg"),
-      date: "June 2023 – Present",
+      date: "April 2023 – June 2023",
       desc: "Developed an E-commerce website in Metalogue Project .",
       descBullets: [
         "Lorem ipsum dolor sit bro eeh langauge naku ardham kalee amet, consectetur adipiscing elit",
@@ -196,14 +197,14 @@ const workExperiences = {
       role: "Open-Source Contributor",
       company: "GSSOC",
       companylogo: require("./assets/images/gssocLogo.jpg"),
-      date: "May 2023 – Present",
+      date: "May 2023 – July 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       role: "Open-Source Contributor",
       company: "SSOC",
       companylogo: require("./assets/images/ssocLogo.png"),
-      date: "May 2023 – Present",
+      date: "May 2023 – June 2023",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
@@ -226,7 +227,7 @@ const bigProjects = {
     {
       image: require("./assets/images/docsLogo.png"),
       projectName: "Google-Doc-Clone",
-      projectDesc: "Developed an Interactive Google-doc's Clone app using the latest MERN Stack Technologies",
+      projectDesc: "Developed a web application that serves as a clone of Google Docs, one of the most popular collaborative document editing platforms. This project represents a culmination of my passion for web development and my commitment to creating innovative and user-friendly solutions.",
       footerLink: [
         {
           name: "View Code",
@@ -238,7 +239,7 @@ const bigProjects = {
     {
       image: require("./assets/images/driveLogo.png"),
       projectName: "Google-Drive-Clone",
-      projectDesc: "Developed an Interactive Google-drive Clone app using the latest MERN Stack Technologies",
+      projectDesc: "A web application that replicates the functionality of Google Drive, one of the most widely used cloud storage and file management platforms. This project is the result of my dedication to creating efficient and user-friendly solutions in the realm of web development.",
       footerLink: [
         {
           name: "View Code",
@@ -396,7 +397,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -415,7 +416,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -428,7 +429,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -442,11 +443,11 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "ShaikRafikhan1", //Replace "twitter" with your twitter username without @
+  userName: "ShaikRafi03", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
